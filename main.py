@@ -10,7 +10,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://serverless-arch-frontend.pages.dev/"],
+    allow_origins=["https://serverless-arch.pages.dev/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
